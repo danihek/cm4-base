@@ -1,0 +1,156 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "89cb03e1-ab90-4782-b022-d84f7c60e772")
+	(paper "A4")
+	(title_block
+		(title "cm4_base")
+		(date "2025-05-06")
+		(rev "0.1")
+		(company "oni")
+	)
+	(lib_symbols)
+	(sheet
+		(at 199.39 74.93)
+		(size 39.37 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5947f6ab-2fa6-4774-8e22-74df9e535a7c")
+		(property "Sheetname" "test"
+			(at 199.39 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test.kicad_sch"
+			(at 199.39 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "hi" input
+			(at 199.39 82.55 180)
+			(uuid "5f3da3be-39cc-44c4-bb10-7cb1a2bf3d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm4-base"
+				(path "/89cb03e1-ab90-4782-b022-d84f7c60e772"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "caa71f4c-454d-4ac9-b287-456eafb34991")
+		(property "Sheetname" "CM4 High Speed"
+			(at 101.6 100.9645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4-high-speed.kicad_sch"
+			(at 101.6 140.2085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-base"
+				(path "/89cb03e1-ab90-4782-b022-d84f7c60e772"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "fc4c71a5-1008-4ac4-98db-57c838c57d91")
+		(property "Sheetname" "CM4 GPIO"
+			(at 101.6 50.1645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4-gpio.kicad_sch"
+			(at 101.6 89.4085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm4-base"
+				(path "/89cb03e1-ab90-4782-b022-d84f7c60e772"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
